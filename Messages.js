@@ -13,7 +13,7 @@ function getRandomMessage () {
     do {randomIndex = Math.floor(Math.random() * messages.length);
     } while (usedMessages.includes(randomIndex));
 
-    usedMessages.push = randomIndex;
+    usedMessages.push(randomIndex);
 
     return messages[randomIndex];
 };
